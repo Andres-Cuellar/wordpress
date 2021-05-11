@@ -1,0 +1,58 @@
+Credenciales
+
+BD Wordpress
+
+
+Nombre de la base de datos
+andres_cuellar_wordpress
+
+Nombre de usuario
+root
+
+Contraseña
+
+
+Servidor de la base de datos
+localhost
+
+Prefijo de tabla
+wp_acw
+_____________________________________________
+
+Credenciales Wordpress
+
+Nombre de usuario
+landingtext
+
+Contraseña
+!@landingtext!@
+
+_____________________________________________
+
+Codigo usado para la redireccion de contact form 7
+
+add_action( 'wp_footer', 'redirect_cf7' );
+ 
+function redirect_cf7() {
+?>
+<script type="text/javascript">
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+       location = 'https://www.example.com/thank-you/';
+}, false );
+</script>
+<?php
+_____________________________________________
+
+Plugins utilizados
+Akismet Anti-Spam
+Contact Form 7
+Easy WP SMTP
+Elementor
+
+
+Theme utilizado
+Hello Elementor
+
+_____________________________________________
+
+
